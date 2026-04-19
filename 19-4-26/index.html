@@ -2,9 +2,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Image Upload</title>
 </head>
 <body>
-    
+    <fieldset>
+        <legend>UPLOAD PHOTO</legend>
+        <form action="index.php" method="post" enctype="multipart/form-data">
+            <input type="file" id="file" name="file" value="file" title="1"><br><br>
+            <input type="submit" name="submit" value="submit">
+        </form>
+    </fieldset>
 </body>
 </html>
