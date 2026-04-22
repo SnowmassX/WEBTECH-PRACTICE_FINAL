@@ -1,0 +1,27 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Register</legend>
+        <form action="../controller/register.php" method="post">
+            EMAIL: <input type="email" name="email" title="1"><br>
+            PASSWORD: <input type="password" name="password" title="2"><br>
+            USERNAME: <input type="text" name="username" title="3"><br>
+            <fieldset>
+                <legend>gender</legend>
+                <input type="radio" value="male" name="gender"> Male
+                <input type="radio" value="female" name="gender"> Female
+                <input type="radio" value="others" name="gender"> Others <br>
+            </fieldset>
+            <input type="submit" name="submit">
+        </form>
+    </fieldset>
+</body>
+
+</html>
