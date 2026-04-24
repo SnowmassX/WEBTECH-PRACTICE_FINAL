@@ -18,8 +18,8 @@
                 "username"=>$username,
                 "gender"=>$gender
             ];
-            $_SESSION['users'] = $user;
-            header('location: login.html');
+            $_SESSION['users'][] = $user;
+            header('location: ../view/home.html');
         }
     }
 ?>

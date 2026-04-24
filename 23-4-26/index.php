@@ -1,3 +1,3 @@
 <?php
-    header('location: view/register.html');
+    header('location: view/home.html');
 ?>
