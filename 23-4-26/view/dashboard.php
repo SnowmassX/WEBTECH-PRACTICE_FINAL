@@ -19,7 +19,7 @@
     <a href="home.html">logout</a>
     
     <header>
-        <a href="dashboard.html">Dashboard</a> |
+        
         <a href="profile.php">View Profile</a> |
         <a href="edit_profile.php">Edit Profile</a> |
         <a href="products.php">Products</a> |
