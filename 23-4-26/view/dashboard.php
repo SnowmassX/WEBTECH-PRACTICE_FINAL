@@ -27,6 +27,7 @@
     </header>
     <div>
         welcome home <?= $user['username'] ?>
+        welcome home <?= $user['password'] ?>
     </div>
     <footer>
 
