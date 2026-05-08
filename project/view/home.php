@@ -20,5 +20,11 @@
             <a href=".php">Cart</a>
         </nav>
     </header>
+    <main>
+
+    </main>
+    <footer>
+        
+    </footer>
 </body>
 </html>
