@@ -20,6 +20,7 @@
             <a href="../products.php">Products</a>
             <a href="../../controller/logout.php">Logout</a>
             <a href="../profile.php" >Profile</a>
+            
         </nav>
         <br><br>
     </header>
